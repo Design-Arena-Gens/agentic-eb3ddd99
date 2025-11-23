@@ -1,0 +1,14 @@
+:root { color-scheme: light dark; }
+
+html, body { margin: 0; padding: 0; }
+
+h1 { font-size: 1.875rem; line-height: 2.25rem; margin: 0 0 12px; }
+label { display: block; font-weight: 600; margin: 12px 0 6px; }
+input[type="text"], textarea { width: 100%; padding: 10px 12px; border-radius: 8px; border: 1px solid #ddd; background: var(--bg, #fff); }
+button { cursor: pointer; padding: 10px 14px; border-radius: 8px; border: 0; background: #0ea5e9; color: white; font-weight: 600; }
+button:disabled { opacity: 0.6; cursor: not-allowed; }
+.card { border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px; background: #fff; box-shadow: 0 1px 2px rgba(0,0,0,0.04); }
+.help { color: #6b7280; font-size: 0.9rem; }
+.success { color: #166534; }
+.error { color: #991b1b; }
+.preview { width: 100%; max-height: 360px; object-fit: contain; background: #f3f4f6; border: 1px dashed #d1d5db; border-radius: 8px; }
